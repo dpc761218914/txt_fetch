@@ -74,8 +74,7 @@ public class test {
      * @param content 需要写入的内容
      * @return 生成一个文件
      */
-    public static void writeMsgTxt(File file,String content) throws IOException{      	  
-        
+    public static void writeMsgTxt(File file,String content) throws IOException{      	        
         //如果文件不存在,就动态创建文件  
         if(!file.exists()){  
         	file.createNewFile();  
