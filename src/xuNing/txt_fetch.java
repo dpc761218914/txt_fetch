@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class test {
+public class txt_fetch {
 
     /**
      * 读取txt文件的内容，返回命中的arraylist,由于array不可初始化必须要设置大小。所以用arraylist
